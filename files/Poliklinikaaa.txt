@@ -1,0 +1,11 @@
+Poliklinika sayti uchun qilishi kerak bulgan ishlar:
+
+1. Asosiy bulimni chiroyliroq qilish.
+2. Responsiveni tug'irlash.
+3. Xizmatlarni to'ldirish.
+4. Shifokorlar bulimini to'ldirish.
+
+
+Xizmat nomlari
+Xizmat narxi (so'm)*
+Xizmatning arzonlashtirilgan narxi (so'm)*

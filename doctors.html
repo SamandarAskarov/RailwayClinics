@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Врачи</title>
+    <link rel="icon" href="logo/icon1.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  
+    <!-- Headaer -->
+    <div class="header sticky-top" id="header">
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3">
+                <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                  <img src="logo/icon1.png" class="bi me-2" width="60">
+                  <span class="fs-4 logotext">Центральная поликлиника</span>
+                </a>
+          
+                <ul class="nav nav-pills">
+                  <li class="nav-item"><a href="index.html" class="nav-link menu">Главная</a></li>
+                  <!-- <li class="nav-item"><a href="index.html" class="nav-link menu">О нас</a></li> -->
+                  <li class="nav-item"><a href="services.html" class="nav-link menu">Услуги</a></li>
+                  <li class="nav-item"><a href="doctors.html" class="nav-link menu active1" aria-current="page">Врачи</a></li>
+                  <li class="nav-item"><a href="news.html" class="nav-link menu">Новости</a></li>
+                  <li class="nav-item"><a href="legal.html" class="nav-link menu">ДЮЛ</a></li>
+                  <li class="nav-item"><a href="faqs.html" class="nav-link menu">FAQs</a></li>
+                  <li class="nav-item"><a href="#footer" class="nav-link menu">Контакты</a></li>
+                </ul>
+
+                <ul class="nav nav-pills">
+                    <li><a href="index/doctors.html"><img src="img/uzb.png" alt="" class="bi me-2 lang" width="25"></a></li>
+                    <li><a href="doctors.html"><img src="img/rus.png" alt="" class="bi me-2 lang" width="25"></a></li>
+                </ul>
+              </header>
+        </div>
+    </div>
+    
+
+    <!-- Main -->
+    <div class="doctorsmain">
+      <h1 class="text-center">Врачи</h1>
+      <div class="container">
+        <div class="row">
+
+          <!-- <div class="col-lg-4 col-md-6 col-sm-10">
+            
+            <div class="carddoc card1 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Гафурова Хилола Хасиловна</h2>
+                    <h5 class="doctorstype">Стоматолог</h5>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 2 -->
+            <div class="carddoc card2 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Моторина Татьяна Валерьевна</h2>
+                    <h5 class="doctorstype">Заместитель главного врача</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 3 -->
+            <div class="carddoc card3 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Рахимова Дилрабо Закировна</h2>
+                    <h5 class="doctorstype">Онко-гинеколог</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 4 -->
+            <div class="carddoc card4 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Кадирова Дилдора Абдувахобовна</h2>
+                    <h5 class="doctorstype">Невролог</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 5 -->
+            <div class="carddoc card5 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Ким Виктория Викторовна</h2>
+                    <h5 class="doctorstype">Врач ультразвуковой диагностики</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 6 -->
+            <div class="carddoc card6 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Эрматова Шахло Норматовна</h2>
+                    <h5 class="doctorstype">Врач-вирусолог</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 7 -->
+            <div class="carddoc card7 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Абдужабарова Умида Шухратовна</h2>
+                    <h5 class="doctorstype">Врач проф патолог</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 8 -->
+            <div class="carddoc card8 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Абдурахимов Шерзод Раджабаевич</h2>
+                    <h5 class="doctorstype">Травматолог</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 9 -->
+            <div class="carddoc card9 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Абидова Аделина Хамзиевна</h2>
+                    <h5 class="doctorstype">Производственный врач</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 10 -->
+            <div class="carddoc card10 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Архипова Александра Александровна</h2>
+                    <h5 class="doctorstype">Терапевт, заведующая терапевтического</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 11 -->
+            <div class="carddoc card11 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Билолова Мухаббат Абдувохидовна</h2>
+                    <h5 class="doctorstype">Стоматолог-терапевт</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 12-->
+            <div class="carddoc card12 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Буш Виктория Викторовна</h2>
+                    <h5 class="doctorstype">Врач вирусолог, заведующая вирусологической</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 13-->
+            <div class="carddoc card13 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Буш Павел Александрович</h2>
+                    <h5 class="doctorstype">Гастроэнтеролог гепатолог</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 14-->
+            <div class="carddoc card14 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Гафуржанов Дилшод Гафуржанович</h2>
+                    <h5 class="doctorstype">Стоматолог-хирург</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 15-->
+            <div class="carddoc card15 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Гафуржанова Хилола Хасиловна</h2>
+                    <h5 class="doctorstype">Стоматолог-терапевт, заведующая с.</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 16-->
+            <div class="carddoc card16 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Гафурова Юлдуз Рихсибаевна</h2>
+                    <h5 class="doctorstype">Заведующая офтальмологического отделения</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 17-->
+            <div class="carddoc card17 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Зайнитдинова Фарида Шухратовна</h2>
+                    <h5 class="doctorstype">Врач функциональной диагностики</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 18-->
+            <div class="carddoc card18 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Захидова Азиза Саидганиевна</h2>
+                    <h5 class="doctorstype">Медсёстра</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 19-->
+            <div class="carddoc card19 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Измуллаев Ахмед Нариманович</h2>
+                    <h5 class="doctorstype">Стоматолог-ортопед</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 20-->
+            <div class="carddoc card20 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Ильясова Гулбахор Фахриддиновна</h2>
+                    <h5 class="doctorstype">Врач ультразвуковой диагностики</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 col-sm-10">
+            
+            <div class="carddoc card21 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Кадирова Дилдора Абдувахабовна</h2>
+                    <h5 class="doctorstype">Невролог</h5>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 22-->
+            <div class="carddoc card22 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Камалова Назокат Хамидовна</h2>
+                    <h5 class="doctorstype">Стоматолог-терапевт</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 23-->
+            <div class="carddoc card23 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Камилова Ирода Салохитдиновна</h2>
+                    <h5 class="doctorstype">Врач-бактериолог</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 24-->
+            <div class="carddoc card24 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Касимова Оксана Михайловна</h2>
+                    <h5 class="doctorstype">Пульмонолог</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 25-->
+            <div class="carddoc card25 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Ким Андрей Яковлевич</h2>
+                    <h5 class="doctorstype">Анестезиолог</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 26-->
+            <div class="carddoc card26 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Клеймёнова Лариса Феликсовна</h2>
+                    <h5 class="doctorstype">Врач-рентгенолог</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 27-->
+            <div class="carddoc card27 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Ли Александр Васильевич</h2>
+                    <h5 class="doctorstype">Онколог, маммолог</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 28-->
+            <div class="carddoc card28 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Малькова Елена Михайловна</h2>
+                    <h5 class="doctorstype">Терапевт</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 29-->
+            <div class="carddoc card29 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Мартиросян Виолетта Владимировна</h2>
+                    <h5 class="doctorstype">Производственный врач</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 30-->
+            <div class="carddoc card30 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Мирзаева Нигора Махамаджоновна</h2>
+                    <h5 class="doctorstype">Оториноларинголог, заведующая о.</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 31-->
+            <div class="carddoc card31 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Моторина Екатерина Валерьевна</h2>
+                    <h5 class="doctorstype">Врач-вирусолог</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 32-->
+            <div class="carddoc card32 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Муратова Нигора Абдусатторовна</h2>
+                    <h5 class="doctorstype">Врач клинико диагностической лаборатории</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 33-->
+            <div class="carddoc card33 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Насирова Светлана Талгатовна</h2>
+                    <h5 class="doctorstype">Стоматолог-терапевт</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 34-->
+            <div class="carddoc card34 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Расулова Хилола Пулатовна</h2>
+                    <h5 class="doctorstype">Врач КДЛ</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 35-->
+            <div class="carddoc card35 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Ризаева Индира Кадамбаевна</h2>
+                    <h5 class="doctorstype">Врач ультразвуковой диагностики</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 36-->
+            <div class="carddoc card36 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Самадова Умида Азизовна</h2>
+                    <h5 class="doctorstype">Заведующая отделения функциональной диагностики</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 37-->
+            <div class="carddoc card37 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Усманова Гульнора Хайдаровна</h2>
+                    <h5 class="doctorstype">Гинеколог, заведующая гинекологическим</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 38-->
+            <div class="carddoc card38 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Усманова Дилфуза Насиритдиновна</h2>
+                    <h5 class="doctorstype">Медсёстра</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 39-->
+            <div class="carddoc card39 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Файзиев Сардор Эркинович</h2>
+                    <h5 class="doctorstype">Производственный врач</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 40-->
+            <div class="carddoc card40 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Хайталиев Фарход Арипжанович</h2>
+                    <h5 class="doctorstype">Офтальмолог</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 41-->
+            <div class="carddoc card41 mx-auto">
+              <<div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Хайталиев Эркин Шукуржонович</h2>
+                    <h5 class="doctorstype">Хирург, заведующий хирургического</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 42-->
+            <div class="carddoc card42 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Халилова Феруза Джураевна</h2>
+                    <h5 class="doctorstype">Производственный врач</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 43-->
+            <div class="carddoc card43 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Халилова Эльмира Мирзаевна</h2>
+                    <h5 class="doctorstype">Врач-рентгенолог</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 44-->
+            <div class="carddoc card44 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Шайхутдинов Ильхом Мидихатович</h2>
+                    <h5 class="doctorstype">Хирург</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <!-- Card 45-->
+            <div class="carddoc card45 mx-auto">
+              <div class="docborder">
+                <div class="docicons">
+                    <h2 class="doctorsname">Эргашев Бахтиер Махмудович</h2>
+                    <h5 class="doctorstype">Стоматолог-ортопед</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Разделы</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Главная</a></li>
+              <li class="nav-item mb-2"><a href="#about" class="nav-link p-0 text-body-secondary">О нас</a></li>
+              <li class="nav-item mb-2"><a href="services.html" class="nav-link p-0 text-body-secondary">Услуги</a></li>
+              <li class="nav-item mb-2"><a href="doctors.html" class="nav-link p-0 text-body-secondary">Врачи</a></li>
+              <li class="nav-item mb-2"><a href="news.html" class="nav-link p-0 text-body-secondary">Новости</a></li>
+              <li class="nav-item mb-2"><a href="legal.html" class="nav-link p-0 text-body-secondary">ДЮЛ</a></li>
+              <li class="nav-item mb-2"><a href="faqs.html" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#footer" class="nav-link p-0 text-body-secondary">Контакты</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Тел-номера</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">+998712999951</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">+998712999553</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">+998914445454</a></li>
+            </ul>
+
+            <h5>Напишите нам</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">info@poliklinika.com</a></li>
+              <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">telegramgroup</a></li> -->
+              <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">supportbot</a></li> -->
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <form>
+              <h5>Подпишитесь на новости</h5>
+              <p>Ежемесячный дайджест всего нового и интересного от нас.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Электронная почта">
+                
+              </div>
+              <button class="btn btn-outline-success footerbtn" type="button">Подписаться</button>
+            </form>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+              <h6 class="address">Улица Мехржан 49, Мирабад, Ташкент</h6>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d715.819565308169!2d69.28420860880387!3d41.28681631288198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8ab5a9ef9fd1%3A0x457e94a0b2d035!2sCentral%20Railway%20Polyclinic!5e1!3m2!1sru!2s!4v1690326793189!5m2!1sru!2s" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          
+          <ul class="list-unstyled d-flex socials">
+            <li class="ms-3"><a class="link-body-emphasis" href="https://t.me/poliklinikauzrailways"><i class="fa-brands fa-telegram fa-lg footericon"></i></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://instagram.com/poliklinika_uzrailways?igshid=NTc4MTIwNjQ2YQ=="><i class="fa-brands fa-instagram fa-lg footericon"></i></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://www.facebook.com/poliklinikauzrailways?mibextid=ZbWKwL"><i class="fa-brands fa-facebook fa-lg footericon"></i></a></li>
+          </ul>
+
+          <p class="copy">&copy; 2023 TheLeaf, Inc. All rights reserved.</p>
+
+        </div>
+      </div>
+          
+      </div>
+</body>
