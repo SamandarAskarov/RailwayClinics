@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 .header{
     background-color: #0075FF;
@@ -71,24 +71,36 @@
     padding: 60px;
 }
 
+.frontimg {
+    border-radius: 5px;
+    border: 1.5px solid #0075FF;
+}
+
 .aboutpar1{
     margin-bottom: 60px;
     font-size: 20px;
-    line-height: 35px;
+    line-height: 33px;
+    /* font-family: sourse sans pro; */
+    word-spacing: .5pc;
+    /* border: 1px solid #000000; */
 }
 
+
 .aboutpar2{
-    margin-top: 20px;
+    margin-top: 26px;
     font-size: 20px;
-    line-height: 35px;
+    line-height: 33px;
+    word-spacing: .5pc;
 }
 
 .aboutpar1::first-letter{
     margin-left: 30px;
+    font-size: 35px;
 }
 
 .aboutpar2::first-letter{
     margin-left: 30px;
+    font-size: 35px;
 }
 
 .withicons{
@@ -165,6 +177,7 @@
     margin-top: 30px;
     padding-top: 30px;
     color: #FAF8FF;
+    bottom: 0px;
 }
 
 
@@ -197,6 +210,7 @@
     margin-top: 10px;
 
 }
+
 
 .address{
     margin-bottom: 15px;
