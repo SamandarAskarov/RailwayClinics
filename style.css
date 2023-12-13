@@ -41,7 +41,9 @@
     background-image: url('img/clinics.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    background-position: center;
+    height: 120vh;
+    /* background-attachment: fixed; */
 
 }
 
@@ -52,13 +54,13 @@
 
 .maintext{
     /* font-size: 60px; */
-    font-size: 3.7rem;
+    font-size: calc(.6rem + 3.3vw);
     font-weight: 700;
 }
 
 .maintextbot{
     /* font-size: 30px; */
-    font-size: 1.7rem;
+    font-size: calc(.4rem + 1.3vw);
     font-weight: 600;
 }
 
@@ -78,29 +80,31 @@
 
 .aboutpar1{
     margin-bottom: 25px;
-    font-size: 20px;
-    line-height: 33px;
-    /* font-family: sourse sans pro; */
-    word-spacing: .5pc;
+    font-size: calc(.2rem + 1.1vw);
+    line-height: calc(.7rem + 1.4vw);
+    word-spacing: .4pc;
     /* border: 1px solid #000000; */
+    /* font-family: sourse sans pro; */
+    /* font-size: 1.3rem; */
 }
 
 
 .aboutpar2{
     margin-top: 12px;
-    font-size: 20px;
-    line-height: 33px;
-    word-spacing: .5pc;
+    font-size: calc(.2rem + 1.1vw);
+    line-height: calc(.7rem + 1.4vw);
+    word-spacing: .4pc;
+    /* font-size: 20px; */
 }
 
 .aboutpar1::first-letter{
     margin-left: 30px;
-    font-size: 35px;
+    font-size: calc(.7rem + 1.4vw);
 }
 
 .aboutpar2::first-letter{
     margin-left: 30px;
-    font-size: 35px;
+    font-size: calc(.7rem + 1.4vw);
 }
 
 .withicons{
