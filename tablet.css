@@ -1,0 +1,18 @@
+@media only screen and (max-width: 991) and (min-width: 768px) 
+{
+    .aboutpar1{
+        margin-bottom: 25px;
+        font-size: 15px;
+        line-height: 30px;
+        /* font-family: sourse sans pro; */
+        word-spacing: .4pc;
+        /* border: 1px solid #000000; */
+    }
+
+    .aboutpar2{
+        margin-top: 12px;
+        font-size: 15px;
+        line-height: 33px;
+        word-spacing: .5pc;
+    }
+}
