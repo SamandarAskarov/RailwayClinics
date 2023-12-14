@@ -7,12 +7,18 @@
     width: 100%;
 }
 
+.logoimg{
+    width: calc(2rem + 1.9vw);
+}
+
 .logotext{
     color: #FAF8FF;
+    font-size: calc(.6rem + 1.2vw)!important;
 }
 
 .header a{
     color: #FAF8FF;
+    font-size: calc(.1rem + 1.0vw);
 }
 
 .active1 {
@@ -32,6 +38,7 @@
 
 .lang{
     margin-top: 40%;
+    width: calc(.6rem + 1.2vw);
 }
 
 .del{
@@ -1298,3 +1305,13 @@
 .card45:hover .doctorstype{
     opacity: 1;
 }
+
+
+
+
+
+
+
+
+
+
