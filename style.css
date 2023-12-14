@@ -18,7 +18,7 @@
 
 .header a{
     color: #FAF8FF;
-    font-size: calc(.1rem + 1.0vw);
+    /* font-size: calc(.1rem + 1.0vw); */
 }
 
 .active1 {
@@ -37,8 +37,10 @@
 } */
 
 .lang{
-    margin-top: 40%;
-    width: calc(.6rem + 1.2vw);
+    margin-top: 18%;
+    margin-right: 2.5px!important;
+    width: calc(.6rem + 1.5vw);
+    /* width: 30px; */
 }
 
 .del{
@@ -247,7 +249,7 @@
 }
 
 .serviceinform{
-    font-size: calc(.2rem + 1.0vw);
+    font-size: calc(.2rem + 1.1vw);
 }
 
 .doctorsmain h1{
@@ -1306,7 +1308,14 @@
     opacity: 1;
 }
 
-
+@media (max-width: 668px) {
+    .menu{
+        margin-right: 0px;
+        font-size: 11px;
+        width: auto;
+        /* padding-left: 10px!important; */
+    }
+}
 
 
 
