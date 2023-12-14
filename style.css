@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
+*{margin: 0; padding: 0;}
+
 .header{
     background-color: #0075FF;
     width: 100%;
@@ -38,29 +40,29 @@
 
 .main{
     margin-top: 0px;
-    background-image: url('img/clinics.png');
+    background-image: url('img/clinics.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 120vh;
-    /* background-attachment: fixed; */
-
+    height: 100vh;
+    background-attachment: fixed;
 }
 
 .maintext, .maintextbot{
     color: #0075FF;
-    padding-top: 0px!important;
+    padding-top: 10px!important;
+    text-shadow: 2px 2px 2px #fff;
 }
 
 .maintext{
     /* font-size: 60px; */
-    font-size: calc(.6rem + 3.3vw);
+    font-size: calc(.6rem + 3.4vw);
     font-weight: 700;
 }
 
 .maintextbot{
     /* font-size: 30px; */
-    font-size: calc(.4rem + 1.3vw);
+    font-size: calc(.4rem + 1.5vw);
     font-weight: 600;
 }
 
@@ -80,9 +82,9 @@
 
 .aboutpar1{
     margin-bottom: 25px;
-    font-size: calc(.2rem + 1.1vw);
-    line-height: calc(.7rem + 1.4vw);
-    word-spacing: .4pc;
+    font-size: calc(.2rem + 1.2vw);
+    line-height: calc(.6rem + 1.4vw);
+    word-spacing: .3pc;
     /* border: 1px solid #000000; */
     /* font-family: sourse sans pro; */
     /* font-size: 1.3rem; */
@@ -91,9 +93,9 @@
 
 .aboutpar2{
     margin-top: 12px;
-    font-size: calc(.2rem + 1.1vw);
-    line-height: calc(.7rem + 1.4vw);
-    word-spacing: .4pc;
+    font-size: calc(.2rem + 1.2vw);
+    line-height: calc(.6rem + 1.4vw);
+    word-spacing: .3pc;
     /* font-size: 20px; */
 }
 
@@ -109,6 +111,10 @@
 
 .withicons{
     margin-top: 30px;
+}
+
+.withicons h4{
+    font-size: calc(.4rem + 1.4vw);
 }
 
 
@@ -231,6 +237,10 @@
 .servicesmain h1{
     color: #0075FF;
     margin: 35px;
+}
+
+.serviceinform{
+    font-size: calc(.2rem + 1.0vw);
 }
 
 .doctorsmain h1{
