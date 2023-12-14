@@ -1,0 +1,59 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+
+
+
+@media (max-width: 768px) {
+
+    .header{
+        height: auto;
+    }
+
+    .checkbtn{
+        display: block;
+        margin-right: 4px;
+        position: absolute;
+        right: 10px;
+        top: 0;
+        /* margin: 15px; */
+    }
+    
+    .logoimg{
+        width: 35px;
+        position: absolute;
+        left: 10px;
+        top: 14%;
+        /* margin: 15px; */
+    }
+
+    .logotext{
+        display: none;
+    }
+
+    .menu {
+        font-size: 10px;
+        margin-right: 4.5px;
+        padding: 10px;
+    }
+
+    .lang{
+        width: 15px;
+        
+    }
+
+    #qator{
+        margin-top: 14%;
+    }
