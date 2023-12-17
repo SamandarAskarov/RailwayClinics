@@ -230,7 +230,6 @@
 
 }
 
-
 .address{
     margin-bottom: 15px;
 }
@@ -1315,6 +1314,15 @@
         width: auto;
         /* padding-left: 10px!important; */
     }
+
+    iframe{
+        width: 300px;
+        height: 150px;
+     }
+
+     .address{
+        font-size: 13px;
+     }
 }
 
 
