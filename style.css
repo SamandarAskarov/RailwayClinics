@@ -91,7 +91,7 @@
 
 .aboutpar1{
     margin-bottom: 25px;
-    font-size: calc(.2rem + 1.2vw);
+    font-size: calc(.2rem + 1.09vw);
     line-height: calc(.6rem + 1.4vw);
     word-spacing: .3pc;
     /* border: 1px solid #000000; */
@@ -102,18 +102,26 @@
 
 .aboutpar2{
     margin-top: 12px;
-    font-size: calc(.2rem + 1.2vw);
+    font-size: calc(.2rem + 1.08vw);
     line-height: calc(.6rem + 1.4vw);
     word-spacing: .3pc;
     /* font-size: 20px; */
 }
 
 .aboutpar1::first-letter{
+    margin-left: 40px;
+}
+
+.aboutpar2::first-letter{
+    margin-left: 40px;
+}
+
+.aboutpar11::first-letter{
     margin-left: 30px;
     font-size: calc(.7rem + 1.4vw);
 }
 
-.aboutpar2::first-letter{
+.aboutpar22::first-letter{
     margin-left: 30px;
     font-size: calc(.7rem + 1.4vw);
 }
